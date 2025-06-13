@@ -1,0 +1,123 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1571019613914-85f342c1d4e9?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text {
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+  max-width: 600px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #ff4081;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-img img {
+  border-radius: 12px;
+  width: 300px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 40px;
+  margin-bottom: 15px;
+}
+
+.testimonial img {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.stars i {
+  color: #ffc107;
+  font-size: 18px;
+  margin-right: 2px;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background: #ff4081;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
